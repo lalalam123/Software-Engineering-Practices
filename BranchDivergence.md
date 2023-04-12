@@ -54,6 +54,8 @@ To fix this issue, you need to specify how Git should handle the merge of the di
     git config pull.rebase false
     ```
 
+    Notice that, you have to run `git pull` one more time
+
 - Rebase: This option will reapply your local changes on top of the remote branch, creating **a linear history** without merge commits.
 
     You can use this option by running the following command:
@@ -125,5 +127,5 @@ Choose the option that is appropriate for your situation and run the correspondi
 
 Personally, I would prefer Rebase for personal projects and Merge for co-operating projects.
 
-* [Back to Top](#branch-divergence-error)
+* [Back to Top](#branch-divergence-error-white_check_mark)
 
